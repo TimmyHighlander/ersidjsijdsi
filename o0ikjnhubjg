@@ -1,0 +1,181 @@
+                    if open("mossacasi", "r").read()=="5" and rea[0]=="X":
+                        if rea[1]=="O":
+                            mossabot = rea.replace("8", "X")
+                            open("mossacasi", "w").write("52")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[4]=="O":
+                            mossabot = rea.replace("6", "X")
+                            open("mossacasi", "w").write("54")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[2]=="O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("53")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[6]=="O":
+                            mossabot = rea.replace("4", "X")
+                            open("mossacasi", "w").write("56")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[10]=="O":
+                            mossabot = rea.replace("3", "X")
+                            open("mossacasi", "w").write("59")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[9]=="O":
+                            mossabot = rea.replace("2", "X")
+                            open("mossacasi", "w").write("58")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[8]=="O":
+                            mossabot = rea.replace("3", "X")
+                            open("mossacasi", "w").write("57")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+
+                    if open("mossacasi", "r").read() == "6" and rea[2] == "X":
+                        if rea[0]=="O":
+                            mossabot = rea.replace("4", "X")
+                            open("mossacasi", "w").write("61")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[1]=="O":
+                            mossabot = rea.replace("4", "X")
+                            open("mossacasi", "w").write("62")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[4]=="O":
+                            mossabot = rea.replace("5", "X")
+                            open("mossacasi", "w").write("64")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[5]=="O":
+                            mossabot = rea.replace("4", "X")
+                            open("mossacasi", "w").write("65")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[8]=="O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("67")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[9]=="O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("68")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[10]=="O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("69")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                    if open("mossacasi", "r").read() == "7" and rea[5] == "X":
+                        if rea[0]=="O":
+                            mossabot = rea.replace("4", "X")
+                            open("mossacasi", "w").write("71")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[1]=="O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("72")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[2]=="O":
+                            mossabot = rea.replace("2", "X")
+                            open("mossacasi", "w").write("73")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[4] == "O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("74")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[6] == "O":
+                            mossabot = rea.replace("2", "X")
+                            open("mossacasi", "w").write("76")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[9] == "O":
+                            mossabot = rea.replace("9", "X")
+                            open("mossacasi", "w").write("78")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[10] == "O":
+                            mossabot = rea.replace("8", "X")
+                            open("mossacasi", "w").write("79")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                    if open("mossacasi", "r").read() == "8" and rea[1] == "X":
+                        if rea[0] == "O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("81")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[2] == "O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("83")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[4] == "O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("84")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[5] == "O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("85")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[6] == "O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("86")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[8] == "O":
+                            mossabot = rea.replace("9", "X")
+                            open("mossacasi", "w").write("87")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[10] == "O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("89")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                    if open("mossacasi", "r").read() == "9" and rea[5] == "X":
+                        if rea[0] == "O":
+                            mossabot = rea.replace("2", "X")
+                            open("mossacasi", "w").write("91")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[1] == "O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("92")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[2] == "O":
+                            mossabot = rea.replace("6", "X")
+                            open("mossacasi", "w").write("93")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[4] == "O":
+                            mossabot = rea.replace("1", "X")
+                            open("mossacasi", "w").write("94")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[6] == "O":
+                            mossabot = rea.replace("3", "X")
+                            open("mossacasi", "w").write("96")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[8] == "O":
+                            mossabot = rea.replace("8", "X")
+                            open("mossacasi", "w").write("97")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
+                        if rea[9] == "O":
+                            mossabot = rea.replace("7", "X")
+                            open("mossacasi", "w").write("98")
+                            open("roun", "w").write("3")
+                            open(tag, "w").write(mossabot)
